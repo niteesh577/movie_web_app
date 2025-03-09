@@ -18,8 +18,8 @@ Follow these steps to set up the project locally:
 
 ### 1️⃣ Clone the Repository
 
--git clone https://github.com/niteesh577/movie_web_app.git
--cd movie_web_app
+git clone https://github.com/niteesh577/movie_web_app.git
+cd movie_web_app
 
 2️⃣ Install Dependencies
 
@@ -28,16 +28,16 @@ npm install
 3️⃣ Setup Environment Variables
 Create a .env file in the root directory and add:
 
--env
--Copy
--Edit
--VITE_TMDB_API_KEY=your_tmdb_api_key
--VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
--VITE_APPWRITE_PROJECT_ID=your_project_id
+env
+Copy
+Edit
+VITE_TMDB_API_KEY=your_tmdb_api_key
+VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+VITE_APPWRITE_PROJECT_ID=your_project_id
 
 4️⃣ Start the Development Server
 
--Copy
--Edit
--npm run dev
--The app should now be running at http://localhost:5173/.
+Copy
+Edit
+npm run dev
+The app should now be running at http://localhost:5173/.
